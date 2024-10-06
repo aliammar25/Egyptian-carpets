@@ -1,0 +1,177 @@
+/* تصميم الصفحة الأساسي */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    direction: rtl;
+}
+
+/* تصميم العنوان الرئيسي */
+.main-header {
+    text-align: center;
+    padding: 100px 20px;
+    background-image:url(_ac69cbbb-2275-4a7e-90d6-aeabd661bcef.jpeg) ;
+    color: #ffdd57;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+
+    margin: 0 0 20px;
+}
+
+.main-header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.cta-button {
+    background-color: #ffdd57;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+ h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+}
+
+.cta-button:hover {
+    background-color: #ffd933;
+}
+
+
+.card {
+    background-color: #f4d03f; /* اللون الذهبي */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.card p {
+    color: #34495e;
+    font-size: 16px;
+}
+.price {
+    font-size: 20px;
+    color: #c0392b;
+    margin: 10px 0;
+}
+.details {
+    margin-bottom: 15px;
+}
+.order-btn {
+    display: block;
+    background-color:#ffdd57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.order-btn:hover {
+    background-color: #fce57e;
+}
+
+
+/* تصميم قسم المميزات */
+.features-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* تصميم قسم شهادات العملاء */
+.testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:#f7f7f7 ;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 30%;
+    background-color:#ffdd57;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* تصميم الفوتر */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color:#ffdd57 ;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .feature, .testimonial {
+        width: 100%;
+    }
+}
